@@ -17,7 +17,8 @@ public class DestinationFinale extends Destination<Boolean>{
 	       
 	       /**
 	        * re�oit une information 
-	        * @param information  l'information  � recevoir
+	        * @param infoRecue information  l'information  � recevoir
+		* @throws InformationNonConforme si information non conforme
 	        */
 	           public void recevoir(Information <Boolean> infoRecue) throws InformationNonConforme
 	           {

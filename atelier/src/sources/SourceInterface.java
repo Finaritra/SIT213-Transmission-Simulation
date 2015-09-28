@@ -24,6 +24,7 @@ package sources;
    
    /**
     * pour émettre l'information  contenue dans une source  
+    * @throws InformationNonConforme si information non conforme
     */
        public void emettre() throws InformationNonConforme; 
    

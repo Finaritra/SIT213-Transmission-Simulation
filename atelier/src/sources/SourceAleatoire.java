@@ -17,7 +17,7 @@ public SourceAleatoire(){
 
 /** 
  * constructeur de la classe SourceAleatoire 
- * @param information à envoyer vers les destinations
+ * @param infoFixe information à envoyer vers les destinations
  */
 public SourceAleatoire(Information<Boolean> infoFixe){
 	destinationsConnectees = new LinkedList <DestinationInterface <Boolean>> ();

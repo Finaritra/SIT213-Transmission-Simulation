@@ -46,7 +46,10 @@ public class TransmetteurParfait extends Transmetteur<Boolean,Boolean> {
 		}
 	    
 		
-		/**crée une nouvelle instance de Information<Boolean>*/
+		/**crée une nouvelle instance de Information
+		 *@param information Information Ã  modifier (transmetteur parfait on modifie pas)
+		 *@return l'information modifiÃ©
+		*/
 		public Information<Boolean> modify(Information<Boolean> information){
 			Information<Boolean> info = new Information<Boolean>();
 			for(int i=0;i<information.nbElements();i++)
